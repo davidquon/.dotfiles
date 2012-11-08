@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/davidquon/Development/git/px/node/install/app/views'
+let g:netrw_dirhist_2='/Users/davidquon/Development/git/px/node/install/app/views/schools'
+let g:netrw_dirhist_3='/Users/davidquon/Downloads/Amco/Brilliant.me/Brilliant_me_Internal_v1.0.1/images'
+let g:netrw_dirhist_4='/Users/davidquon/.vim'
