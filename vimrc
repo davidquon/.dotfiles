@@ -17,3 +17,5 @@ colorscheme murphy
 call pathogen#infect()
 filetype plugin indent on
 au BufRead,BufNewFile *.iced set filetype=coffee
+nmap <F2> :nohlsearch<CR>
+nmap <F3> :so $MYVIMRC<CR>
