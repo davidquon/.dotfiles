@@ -10,6 +10,9 @@ set matchtime=2
 set ruler
 set showcmd
 set showmode
+set number
+set lines=24
+set columns=80
 
 set sidescroll=1
 set sidescrolloff=3
