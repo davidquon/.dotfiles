@@ -36,6 +36,8 @@
   bb = bisect bad
   bg = bisect good
   bs = bisect skip
+[push]
+  default = tracking
 [merge "tool"]
 [merge]
   tool = gvimdiff
@@ -43,4 +45,3 @@
   auto = 0
 [clean]
   requireForce = false
-
