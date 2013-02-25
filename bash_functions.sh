@@ -20,3 +20,5 @@ alias p3=p\ 3
 alias p4=p\ 4
 alias p5=p\ 5
 alias p6=p\ 6
+
+function gvim { /Applications/MacVim.app/Contents/MacOS/Vim -g $*; }
