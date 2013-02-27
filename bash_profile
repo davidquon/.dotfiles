@@ -8,4 +8,9 @@ if [ -f ~/.dotfiles/git_functions.sh ]; then
    source ~/.dotfiles/git_functions.sh
 fi
 
-export PATH=./node_modules/.bin:$PATH 
+export PATH=./node_modules/.bin:$PATH
+export PATH=./bin:$HOME/bin:/opt/local/bin:/opt/local/sbin:$PATH
+export PATH=/opt/local/libexec/perl5.12:$PATH
+export MANPATH=/opt/local/man:/usr/local/man:$MANPATH
+export MANPATH=/opt/local/share/perl5.12/man/:$MANPATH
+export PHP_ENV=development
