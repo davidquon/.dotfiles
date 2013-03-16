@@ -9,3 +9,4 @@ tmp
 *.swf
 xcuserdata/*
 amco_aliases
+.netrwhist
