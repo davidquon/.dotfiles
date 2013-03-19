@@ -89,3 +89,7 @@ autocmd FileType javascript,html set ts=2 shiftwidth=2 expandtab
 autocmd FileType java set ts=2 shiftwidth=2 expandtab
 autocmd BufReadPre viper,.viper set filetype=lisp
 
+" NERDTree config
+"autocmd vimenter * if !argc() | NERDTree | endif
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+map <C-n> :NERDTreeToggle<CR>
