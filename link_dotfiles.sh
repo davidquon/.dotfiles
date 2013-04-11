@@ -7,3 +7,4 @@ ln -snf ~/.dotfiles/vimrc ~/.gvimrc_git
 ln -snf ~/.dotfiles/vim ~/.vim
 ln -snf ~/.dotfiles/vimrc ~/.vimrc
 ln -snf ~/.dotfiles/xvimrc ~/.xvimrc
+ln -snf ~/.dotfiles/git-completion.bash ~/.git-completion.bash

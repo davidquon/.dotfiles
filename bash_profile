@@ -8,6 +8,10 @@ if [ -f ~/.dotfiles/git_functions.sh ]; then
    source ~/.dotfiles/git_functions.sh
 fi
 
+if [ -f ~/.git-completion.bash ]; then
+   . ~/.git-completion.bash
+fi
+
 export PATH=./node_modules/.bin:$PATH
 export PATH=./bin:$HOME/bin:/opt/local/bin:/opt/local/sbin:$PATH
 export PATH=/opt/local/libexec/perl5.12:$PATH
