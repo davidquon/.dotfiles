@@ -18,3 +18,10 @@ export PATH=/opt/local/libexec/perl5.12:$PATH
 export MANPATH=/opt/local/man:/usr/local/man:$MANPATH
 export MANPATH=/opt/local/share/perl5.12/man/:$MANPATH
 export PHP_ENV=development
+
+export RBENV_ROOT="${HOME}/.rbenv"
+if [ -d "${RBENV_ROOT}" ]; then
+  export PATH="${RBENV_ROOT}/bin:${PATH}"
+    eval "$(rbenv init -)"
+fi
+
