@@ -65,9 +65,11 @@ au BufRead,BufNewFile *.iced set filetype=coffee
 set listchars=tab:>-,trail:·,eol:$
 nmap <silent> <leader>s :set nolist!<CR>
 
+" Mappings
 nmap <silent> <leader>n :silent :nohlsearch<CR>
 nmap <F2> :nohlsearch<CR>
 nmap <F3> :so $MYVIMRC<CR>
+cabbrev w!! %!sudo tee > /dev/null %
 
 runtime macros/matchit.vim
 
