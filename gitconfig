@@ -13,6 +13,7 @@
   ui = auto
 [alias]
   co = checkout
+  cb = co -b
   st = status -sb
   br = branch
   ci = commit
