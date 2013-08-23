@@ -8,7 +8,7 @@ p() {
      else
           case "$1" in
                [0-9] ) p +$1 ;;
-               -* ) adj=$((-1*$1)); if [[ $adj == 0 ]]; then popd; else popd -n +adj; fi > /dev/null; dirs -v ;;
+               -* ) adj=$((-1*$1)); if [[ adj == 0 ]]; then popd; else popd -n +adj; fi > /dev/null; dirs -v ;;
                * ) pushd "$1" > /dev/null ;;
           esac
      fi
