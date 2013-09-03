@@ -1,5 +1,6 @@
 alias h='history'
 alias lh='ls -lh'
+alias bd=". bd -s"
 alias src_aliases='source ~/.bash_aliases'
 
 if [ -f ~/.dotfiles/amco_aliases ]; then
