@@ -11,8 +11,6 @@ set ruler
 set showcmd
 set showmode
 set number
-set lines=24
-set columns=80
 
 set sidescroll=1
 set sidescrolloff=3
@@ -46,7 +44,6 @@ set expandtab
 set shiftwidth=2
 set softtabstop=2
 set tabstop=2
-set textwidth=80
 
 set notextmode
 set notextauto
