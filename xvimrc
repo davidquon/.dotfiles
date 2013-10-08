@@ -2,4 +2,3 @@ set ignorecase
 set noerrorbells
 set incsearch
 set smartcase
-set guioptions=r
