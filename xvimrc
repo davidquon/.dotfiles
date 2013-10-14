@@ -3,3 +3,4 @@ set noerrorbells
 set incsearch
 set smartcase
 set hlsearch
+set debug
