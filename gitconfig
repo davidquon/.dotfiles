@@ -37,6 +37,7 @@
   bb = bisect bad
   bg = bisect good
   bs = bisect skip
+  today = !git log --since=midnight --author=\"$(git config user.name)\" --onel    ine
 [push]
   default = tracking
 [merge "tool"]
