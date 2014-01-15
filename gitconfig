@@ -19,6 +19,8 @@
   ci = commit
   m = checkout master
   rr = reset --hard origin/master
+  un = reset HEAD
+  unh = reset --hard HEAD
   d = diff --color-words
   s = show --color-words
   sign = commit --amend -sC HEAD
