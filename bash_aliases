@@ -1,5 +1,11 @@
 alias h='history'
+
+alias ll='ls -alF'
+alias lll='ll | less'
+alias la='ls -A'
+alias l='ls -CF'
 alias lh='ls -lh'
+
 alias bd=". bd -s"
 alias src_aliases='source ~/.bash_aliases'
 
