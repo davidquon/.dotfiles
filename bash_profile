@@ -12,17 +12,13 @@ if [ -f ~/.git-completion.bash ]; then
    . ~/.git-completion.bash
 fi
 
-export PATH=./node_modules/.bin:$PATH
-export PATH=./bin:$HOME/bin:/opt/local/bin:/opt/local/sbin:$PATH
-export PATH=/opt/local/libexec/perl5.12:$PATH
-export MANPATH=/opt/local/man:/usr/local/man:$MANPATH
-export MANPATH=/opt/local/share/perl5.12/man/:$MANPATH
-export PHP_ENV=development
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+export PATH="./node_modules/.bin:$PATH"
+export PATH="./bin:$HOME/bin:/usr/local/bin:$PATH"
+export PATH="~/scripts:$PATH"
+export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+export MANPATH="/usr/local/man:$MANPATH"
 
-export RBENV_ROOT="${HOME}/.rbenv"
-if [ -d "${RBENV_ROOT}" ]; then
-  export PATH="${RBENV_ROOT}/bin:${PATH}"
-    eval "$(rbenv init -)"
-fi
+export PHP_ENV=development
 export RACK_ENV=development
 
