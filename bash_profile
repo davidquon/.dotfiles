@@ -22,3 +22,5 @@ export MANPATH="/usr/local/man:$MANPATH"
 export PHP_ENV=development
 export RACK_ENV=development
 
+export RBENV_ROOT=/usr/local/var/rbenv
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
