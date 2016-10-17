@@ -3,7 +3,6 @@
 	email = CHANGE_HERE
 [core]
 	excludesfile = /Users/CHANGE_HERE/.gitignore
-  editor = mvim -f -U ~/.gvimrc_git
   autocrlf = false
   whitespace = fix
   pager = less -+$LESS -i -R
