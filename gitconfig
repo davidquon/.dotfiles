@@ -49,3 +49,5 @@
   auto = 0
 [clean]
   requireForce = false
+[credential]
+  helper = osxkeychain
