@@ -1,6 +1,9 @@
 ## Installation
 
-    cd ~
-    git clone git@github.com:davidquon/.dotfiles.git
+    $ cd ~
+    $ git clone git@github.com:davidquon/.dotfiles.git
+    $ ~/.dotfiles/link_dotfiles.sh
+    $ cp ~/.gitconfig ~/gitconfig.orig
+    $ cp ~/.dotfiles/gitconfig ~/.gitconfig
 
-And then `ln -snf` anything you want to use into your ~ directory.
+Edit `~/.gitconfig` `CHANGE_HERE` fields.
