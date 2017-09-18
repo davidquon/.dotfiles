@@ -17,8 +17,8 @@ export RACK_ENV=development
 export ANDROID_HOME=~/Library/Android/sdk
 
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:${PATH}"
-export PATH="./node_modules/.bin:${PATH}"
 export PATH="./bin:$HOME/bin:/usr/local/bin:${PATH}"
+export PATH="./node_modules/.bin:${PATH}"
 export PATH="~/scripts:${PATH}"
 export PATH="$ANDROID_HOME/platform-tools:${PATH}"
 export PATH="$ANDROID_HOME/tools:${PATH}"
